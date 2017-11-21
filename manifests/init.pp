@@ -42,7 +42,17 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class vaz {
+class vaz (
+  String $service,
+  String $token,
+) {
 
+  include vaz::install
+  include vaz::config
+  include vaz::service
+
+  Class['vaz::install']
+  -> Class['vaz::config']
+  ~> Class['vaz::service']
 
 }

@@ -1,0 +1,20 @@
+language: ruby
+cache: bundler
+matrix:
+  include:
+  - rvm: 2.1.10
+    env: PUPPET_VERSION='~> 4.9.0'
+    script: bundle exec rake
+  - rvm: 2.4.2
+    env: PUPPET_VERSION='~> 5.0.0'
+    script: bundle exec rake
+  - rvm: default
+    sudo: required
+    services: docker
+    env: BEAKER_set=centos7 BEAKER_debug=true
+    script: bundle exec rake beaker
+  - rvm: default
+    sudo: required
+    services: docker
+    env: BEAKER_set=debian9 BEAKER_debug=true
+    script: bundle exec rake beaker
