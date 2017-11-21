@@ -1,4 +1,7 @@
-# vaz
+# puppet-vaz
+
+[![Build Status](https://img.shields.io/travis/hfm/puppet-vaz/master.svg?style=flat-square)](https://travis-ci.org/hfm/puppet-vaz)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/hfm/vaz.svg?style=flat-square)](https://forge.puppet.com/hfm/vaz)
 
 #### Table of Contents
 
