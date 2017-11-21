@@ -7,7 +7,7 @@ class vaz::repo (
   String $gpgkey_url = 'https://repo.veeta.org/gpg/GPG-KEY-vaz',
 ) {
 
-  case $facts['os']['name'] {
+  case $facts['os']['family'] {
     'RedHat': {
       yumrepo { 'vaz':
         ensure   => $ensure,
