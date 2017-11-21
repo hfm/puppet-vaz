@@ -35,7 +35,7 @@ The vaz module requires the following puppet module:
 
 ### Configuring vaz
 
-To install the vaz server with default parameters, declare the `vaz` class.
+To install the vaz server, declare the `vaz` class like the following:
 
 ```puppet
 class { 'vaz':
@@ -45,6 +45,8 @@ class { 'vaz':
 ```
 
 ### Configuring modules from Hiera
+
+To install the vaz server using Hiera, you can use 'include ::vaz' and declare in Hiera like the following:
 
 ```yaml
 ---
