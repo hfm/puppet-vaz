@@ -2,7 +2,7 @@
   "name": "hfm-vaz",
   "version": "0.1.0",
   "author": "hfm",
-  "summary": "Install and configure vas (Veeta server client).",
+  "summary": "Install, configure, and running vas (Veeta server client).",
   "license": "Apache-2.0",
   "source": "https://github.com/hfm/puppet-vaz",
   "project_page": "https://github.com/hfm/puppet-vaz",
