@@ -31,6 +31,8 @@ The vaz module requires the following puppet module:
 
 - [puppetlabs-apt](https://forge.puppet.com/puppetlabs/apt): version 2.0 or newer (only Debian-based distributions).
 
+puppetlabs-apt is soft dependencies. If you are installing on Debian systems, you will need to configure appropriate versions of this module.
+
 ## Usage
 
 ### Configuring vaz
