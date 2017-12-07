@@ -1,6 +1,6 @@
 {
   "name": "hfm-vaz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "hfm",
   "summary": "Install, configure, and running vas (Veeta server client).",
   "license": "Apache-2.0",
