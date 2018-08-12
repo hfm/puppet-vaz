@@ -1,3 +1,4 @@
+require 'beaker-puppet'
 require 'beaker-rspec'
 
 # Install Puppet agent on all hosts
