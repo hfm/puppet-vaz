@@ -37,8 +37,9 @@ group :development do
 end
 
 group :system_tests do
-  gem 'beaker',       require: false
-  gem 'beaker-rspec', require: false
+  gem 'beaker-puppet', require: false
+  gem 'beaker-docker', require: false
+  gem 'beaker-rspec',  require: false
 end
 
 puppet_version = ENV['PUPPET_GEM_VERSION']
